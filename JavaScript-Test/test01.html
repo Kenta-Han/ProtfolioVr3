@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>Test01</title>
+    <script src="../JavaScript-Test/test01.js"></script>
+    <script src="../JavaScript-Test/test02.js"></script>
+
+    <style type="text/css">
+        body {
+            text-align: center;
+        }
+        
+        #button01 {
+            width: 300px;
+            height: 30px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome Kenta's Home By JavaScript</h1>
+    <br>
+    <!-- パスワード入力認証 -->
+    <section id="one">
+        <form>
+            <h2>1. If you want to see Kenta's Portfolio</h2>
+            <input type="button" id="button01" value="Go to Portfolio" onclick="enter()">
+        </form>
+        <p>注：パスワードの入力認証</p>
+    </section>
+    <br>
+
+
+    <!-- 誕生の曜日は？ -->
+    <section id="two">
+        <form name="born">
+            <h2>2. If you want to know your born weekday</h2>
+            <br>生年月日(西暦)：
+            <input type="text" size="4" name="myY">年
+            <input type="text" size="2" name="myM">月
+            <input type="text" size="2" name="myD">日
+            <input type="button" value="OK" onclick="mySet()">
+            <br>
+            <br>
+            <input type="text" size="20" name="myMes">
+        </form>
+        <p>注：誕生日は何曜日？</p>
+    </section>
+    <br>
+
+    <!-- 最終更新日 -->
+    <section id="three">
+        <h2>3. Last Updata：</h2>
+        <script>
+            document.write(document.lastModified);
+        </script>
+        <p>注：最終更新日</p>
+    </section>
+
+</body>
+
+</html>

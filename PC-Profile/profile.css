@@ -1,0 +1,400 @@
+@media screen and (max-width:480px) {
+    body {
+        background: #333333 url(../PC-Profile/page-bg.jpg);
+        margin: 0px;
+        font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+        color: #6a6969;
+    }
+    h1 {
+        font: 400 50px/60px 'Bree Serif', Georgia, serif;
+        color: #6a6969;
+    }
+    h2 {
+        font: 400 18px/22px 'Bree Serif', Georgia, serif;
+        color: #6a6969;
+    }
+    h3 {
+        font: 400 14px/16px 'Bree Serif', Georgia, serif;
+        color: #6a6969;
+    }
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+    a {
+        text-decoration: none;
+        color: #6a6969;
+    }
+    a:hover {
+        color: #979797;
+    }
+    a img {
+        border: 0px;
+    }
+    #container {
+        width: 100%;
+        margin: 0px auto 0px auto;
+        background: url(../PC-Profile/body-bg.png);
+        overflow: auto;
+    }
+    /****************************************************/
+    /* HEADER */
+    /****************************************************/
+    #header {
+        width: 100%;
+        height: 150px;
+        background-color: #222222;
+        position: fixed;
+        top: 0px;
+        left: 0%;
+        margin: 0 0 0 0;
+    }
+    #logo img {
+        width: 100%;
+    }
+    #header #logo {
+        padding-top: 1px;
+        width: 40%;
+        margin: 0 30% 0;
+    }
+    #header #main-menu {
+        /*float: right;*/
+        padding-top: 10px;
+    }
+    #header #main-menu li {
+        float: left;
+        list-style: none;
+        margin: 0 10px 0;
+        font: 400 20px/20px 'Bree Serif', Georgia, serif;
+    }
+    /****************************************************/
+    /* ABOUT SECTION */
+    /****************************************************/
+    #about {
+        margin: 0px 43px;
+        padding-top: 150px;
+    }
+    #about h1 {
+        float: left;
+    }
+    #about #top-social {
+        float: right;
+        padding-top: 62px;
+    }
+    #about #top-social li {
+        float: left;
+        list-style: none;
+        margin-left: 10px;
+    }
+    #about #top-social .facebook {
+        text-indent: -9999px;
+        display: block;
+        width: 26px;
+        height: 26px;
+        background: url(../PC-Profile/sm-facebook-icon.png) no-repeat;
+    }
+    #about #top-social .twitter {
+        text-indent: -9999px;
+        display: block;
+        width: 31px;
+        height: 24px;
+        background: url(../PC-Profile/sm-twitter-icon.png) no-repeat;
+    }
+    #about .content {
+        overflow: auto;
+    }
+    #about .content img {
+        border: 0px solid #222222;
+        width: 100%;
+        margin: 0 0% 0;
+    }
+    #about p {
+        font-size: 160%;
+        line-height: 1.2;
+    }
+    /****************************************************/
+    /* MISC */
+    /****************************************************/
+    .top-divider,
+    .bottom-divider {
+        width: 100%;
+        height: 9px;
+        background: url(../PC-Profile/divider.png) repeat-x;
+        clear: both;
+    }
+    .top-divider {
+        margin-bottom: 20px;
+    }
+    .bottom-divider {
+        margin-top: 0px;
+    }
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    body {
+        background: #333333 url(../PC-Profile/page-bg.jpg);
+        margin: 0px;
+        font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+        color: #6a6969;
+    }
+    h1 {
+        font: 400 50px/60px 'Bree Serif', Georgia, serif;
+        color: #6a6969;
+    }
+    h2 {
+        font: 400 18px/22px 'Bree Serif', Georgia, serif;
+        color: #6a6969;
+    }
+    h3 {
+        font: 400 14px/16px 'Bree Serif', Georgia, serif;
+        color: #6a6969;
+    }
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+    a {
+        text-decoration: none;
+        color: #6a6969;
+    }
+    a:hover {
+        color: #979797;
+    }
+    a img {
+        border: 0px;
+    }
+    #container {
+        width: 100%;
+        margin: 0px auto 0px auto;
+        background: url(../PC-Profile/body-bg.png);
+        overflow: auto;
+    }
+    /****************************************************/
+    /* HEADER */
+    /****************************************************/
+    #header {
+        width: 100%;
+        height: 100px;
+        background-color: #222222;
+        padding: 0px 103px;
+        position: fixed;
+        top: 0px;
+        left: 45%;
+        margin: 0 0 0 -410px;
+    }
+    #logo img {
+        width: 100%;
+    }
+    #header #logo {
+        padding-top: 4%;
+        float: left;
+        width: 18%;
+    }
+    #header #main-menu {
+        float: right;
+        padding-top: 8%;
+        width: 79%;
+    }
+    #header #main-menu li {
+        float: left;
+        list-style: none;
+        margin-left: 9px;
+        font: 400 130% 'Bree Serif', Georgia, serif;
+    }
+    /****************************************************/
+    /* ABOUT SECTION */
+    /****************************************************/
+    #about {
+        margin: 0px 43px;
+        padding-top: 115px;
+    }
+    #about h1 {
+        float: left;
+    }
+    #about #top-social {
+        float: right;
+        padding-top: 62px;
+    }
+    #about #top-social li {
+        float: left;
+        list-style: none;
+        margin-left: 10px;
+    }
+    #about #top-social .facebook {
+        text-indent: -9999px;
+        display: block;
+        width: 26px;
+        height: 26px;
+        background: url(../PC-Profile/sm-facebook-icon.png) no-repeat;
+    }
+    #about #top-social .twitter {
+        text-indent: -9999px;
+        display: block;
+        width: 31px;
+        height: 24px;
+        background: url(../PC-Profile/sm-twitter-icon.png) no-repeat;
+    }
+    #about .content {
+        overflow: auto;
+    }
+    #about .content img {
+        float: left;
+        margin-right: 20px;
+        border: 5px solid #222222;
+        width: 30%;
+    }
+    #about p {
+        font-size: 150%;
+    }
+    /****************************************************/
+    /* MISC */
+    /****************************************************/
+    .top-divider,
+    .bottom-divider {
+        width: 100%;
+        height: 9px;
+        background: url(../PC-Profile/divider.png) repeat-x;
+        clear: both;
+    }
+    .top-divider {
+        margin-bottom: 20px;
+    }
+    .bottom-divider {
+        margin-top: 5px;
+    }
+}
+
+
+@media screen and (min-width:769px) {
+    body {
+        background: #333333 url(../PC-Profile/page-bg.jpg);
+        margin: 0px;
+        font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+        color: #6a6969;
+    }
+    h1 {
+        font: 400 58px/60px 'Bree Serif', Georgia, serif;
+        color: #6a6969;
+    }
+    h2 {
+        font: 400 18px/22px 'Bree Serif', Georgia, serif;
+        color: #6a6969;
+    }
+    h3 {
+        font: 400 14px/16px 'Bree Serif', Georgia, serif;
+        color: #6a6969;
+    }
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+    a {
+        text-decoration: none;
+        color: #6a6969;
+    }
+    a:hover {
+        color: #979797;
+    }
+    a img {
+        border: 0px;
+    }
+    #container {
+        width: 950px;
+        margin: 0px auto 0px auto;
+        background: url(../PC-Profile/body-bg.png);
+        overflow: auto;
+    }
+    /****************************************************/
+    /* HEADER */
+    /****************************************************/
+    #header {
+        width: 864px;
+        height: 115px;
+        background-color: #222222;
+        padding: 0px 43px;
+        position: fixed;
+        top: 0px;
+        left: 50%;
+        margin: 0 0 0 -475px;
+    }
+    #logo img {
+        width: 100%;
+    }
+    #header #logo {
+        padding-top: 15px;
+        float: left;
+        width: 20%;
+    }
+    #header #main-menu {
+        float: right;
+        padding-top: 50px;
+    }
+    #header #main-menu li {
+        float: left;
+        list-style: none;
+        margin-left: 20px;
+        font: 400 16px/20px 'Bree Serif', Georgia, serif;
+    }
+    /****************************************************/
+    /* ABOUT SECTION */
+    /****************************************************/
+    #about {
+        margin: 0px 43px;
+        padding-top: 115px;
+    }
+    #about h1 {
+        float: left;
+    }
+    #about #top-social {
+        float: right;
+        padding-top: 62px;
+    }
+    #about #top-social li {
+        float: left;
+        list-style: none;
+        margin-left: 10px;
+    }
+    #about #top-social .facebook {
+        text-indent: -9999px;
+        display: block;
+        width: 26px;
+        height: 26px;
+        background: url(../PC-Profile/sm-facebook-icon.png) no-repeat;
+    }
+    #about #top-social .twitter {
+        text-indent: -9999px;
+        display: block;
+        width: 31px;
+        height: 24px;
+        background: url(../PC-Profile/sm-twitter-icon.png) no-repeat;
+    }
+    #about .content {
+        overflow: auto;
+    }
+    #about .content img {
+        float: left;
+        margin-right: 70px;
+        border: 5px solid #222222;
+        width: 30%;
+    }
+    #about p {
+        font-size: 150%;
+    }
+    /****************************************************/
+    /* MISC */
+    /****************************************************/
+    .top-divider,
+    .bottom-divider {
+        width: 100%;
+        height: 9px;
+        background: url(../PC-Profile/divider.png) repeat-x;
+        clear: both;
+    }
+    .top-divider {
+        margin-bottom: 40px;
+    }
+    .bottom-divider {
+        margin-top: 40px;
+    }
+}

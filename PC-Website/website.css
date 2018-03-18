@@ -1,0 +1,219 @@
+/*リンク擬似クラス*/
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+body {
+    background-color: black;
+}
+
+#bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 2000px;
+}
+
+a:after {
+    color: red;
+}
+
+header img {
+    float: left;
+    width: 9%;
+    margin: 1% 2% 0;
+}
+
+header h1 {
+    float: right;
+    width: 20%;
+    color: white;
+    font-size: 260%;
+    font-family: "HG正楷書体-PRO";
+    font-weight: 900;
+    text-shadow: 0 -1px 5px #fff, 0 -5px 10px #ff0, 0 -10px 25px #f80, 0 -20px 50px #f00;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    padding: 0% 0% 0% 0%;
+    text-align: center;
+}
+
+nav a {
+    font-size: 200%;
+    font-weight: bold;
+    padding: 0% 2% 0% 2%;
+    margin: 0% 1% 0% 0%;
+    list-style: none;
+    /*list number-No*/
+    text-decoration: none;
+    /*underline-No*/
+    line-height: 1.5;
+}
+
+p {
+    width: 80%;
+    background-color: rgba( 204, 255, 204, 0.55);
+    font-size: 140%;
+    margin: 2% 10% 0% 10%;
+    font-family: "メイリオ";
+    text-align: left;
+}
+
+.bg_fixed1 {
+    height: 850px;
+    margin: 5% auto 0px;
+    background-image: url(../Background/Background13.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+.bg_fixed1 h1 {
+    font-size: 280%;
+    color: beige;
+    font-family: "Franklin Gothic Medium";
+    text-align: center;
+}
+
+.bg_fixed1 img {
+    width: 400px;
+    height: 500px;
+    margin: 0% 5% 0% 5%;
+}
+
+.bg_fixed1 span {
+    background-color: rgba( 204, 255, 204, 0.55);
+    font-size: 240%;
+    font-family: "游ゴシック";
+}
+
+.bg_fixed2 {
+    height: 800px;
+    background-image: url(../Background/Background16.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bg_fixed2 h1 {
+    font-size: 280%;
+    color: beige;
+    font-family: "Franklin Gothic Medium";
+}
+
+.bg_fixed2 img {
+    width: 400px;
+    height: 450px;
+    margin: 0% 5% 0% 5%;
+}
+
+.bg_fixed2 span {
+    background-color: rgba( 204, 255, 204, 0.55);
+    font-size: 240%;
+    font-family: "游ゴシック";
+}
+
+.bg_fixed3 {
+    height: 1480px;
+    background-image: url(../Background/Background10.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+.bg_fixed3 h1 {
+    font-size: 280%;
+    color: beige;
+    font-family: "Franklin Gothic Medium";
+}
+
+#photo5,
+#photo6,
+#photo7 {
+    width: 400px;
+    height: 500px;
+    margin: 0% 1% 0% 1%;
+}
+
+#photo8 {
+    width: 900px;
+    height: 500px;
+    margin: 1% 2% 0% 2%;
+}
+
+.bg_fixed3 span {
+    background-color: rgba( 204, 255, 204, 0.55);
+    font-size: 240%;
+    font-family: "游ゴシック";
+}
+
+.bg_fixed4 {
+    height: 1450px;
+    background-image: url(../Background/Background16.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bg_fixed4 h1 {
+    font-size: 280%;
+    color: beige;
+    font-family: "Franklin Gothic Medium";
+}
+
+#photo9,
+#photo10,
+#photo11 {
+    width: 410px;
+    height: 500px;
+    margin: 0% 0.5% 0% 0.5%;
+}
+
+#photo12 {
+    width: 480px;
+    height: 750px;
+    float: left;
+    margin: 1% 1% 0% 10%;
+}
+
+#sub {
+    float: right;
+    text-align: center;
+    margin: 10% 5% 0% 2%;
+    width: 45%;
+}
+
+#sub span {
+    background-color: rgba( 204, 255, 204, 0.55);
+    font-size: 240%;
+    font-family: "游ゴシック";
+    text-align: center;
+}
+
+#sub p {
+    width: 90%;
+    background-color: rgba( 204, 255, 204, 0.55);
+    font-size: 140%;
+    margin: 5% 5% 0% 5%;
+    font-family: "メイリオ";
+}
+
+#page #up {
+    font-size: 30px;
+    text-align: center;
+}

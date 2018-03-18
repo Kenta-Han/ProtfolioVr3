@@ -1,0 +1,281 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    line-height: 1.2em;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: black;
+}
+
+
+/**************Strat 365日の思い出*********************/
+
+.app-days {
+    width: 100%;
+    margin: 0% 0% 0% 0%;
+    background-image: url(../images/03.jpg);
+}
+
+.app-days #part1-1 {
+    width: 80%;
+    background-color: rgba(100, 120, 10, 0.5);
+    margin: 0% 10% 0% 10%;
+}
+
+.app-days #part1-1 h1 {
+    text-align: center;
+    margin: 5% 0% 0%;
+    font-size: 400%;
+    font-weight: 700;
+    font-family: "Yu Mincho";
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff3ba1, 0 0 40px #ff3ba1, 0 0 50px #ff3ba1, 0 0 80px #ff3ba1;
+}
+
+.app-days #part1-1 #daysimg01 {
+    width: 90%;
+    margin: 3% 5% 0px;
+}
+
+.app-days #part1-1 #part1-2 {
+    width: 80%;
+    margin: 5% 10% 0%;
+}
+
+.app-days #part1-2 h2 {
+    font-weight: 500;
+    font-family: "Yu Mincho";
+    font-size: 180%;
+}
+
+.app-days #part1-1 #part1-2 p {
+    color: black;
+    font-family: "Meiryo UI";
+    line-height: 1.7;
+}
+
+.app-days #part1-1 #part1-2 li {
+    color: black;
+    font-family: "Meiryo UI";
+    line-height: 1.5;
+}
+
+.app-days #part1-1 #part1-2 #sec01 {
+    float: left;
+    width: 65%;
+}
+
+.app-days #part1-1 #part1-2 #daysico {
+    margin: 35px 0px 0px;
+    float: right;
+    width: 30%;
+    /*position:relative;
+    top:-200px;left: 600px;*/
+}
+
+.app-days #part1-1 #part1-2 #sec02 {
+    clear: both;
+    width: 80%;
+}
+
+.app-days #part1-1 #part1-2 video {
+    width: 45%;
+    margin: 0 0 70px;
+}
+
+.app-days #part1-1 #part1-2 #sec03 {
+    float: right;
+    width: 50%;
+    margin: 12% 0 0;
+}
+
+
+/****************Start Triperson*******************/
+
+.triperson {
+    width: 100%;
+    margin: 0% 0% 0% 0%;
+    background-image: url(../images/02.jpg);
+    color: white;
+}
+
+.triperson #part2-1 {
+    width: 80%;
+    background-color: rgba(80, 80, 80, 0.5);
+    margin: 0% 10% 0% 10%;
+}
+
+.triperson #part2-1 h1 {
+    text-align: center;
+    margin: 5% 0% 5%;
+    font-size: 500%;
+    font-weight: 700;
+    font-family: "Comic Sans MS";
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 0 0 10px rgba(255, 255, 255, .7), 0 0 10px rgba(255, 255, 255, .5), 0 0 0px rgba(255, 255, 255, .4), 0 0 200px rgba(255, 255, 255, .3)
+}
+
+.triperson #part2-1 #tripimg01 {
+    width: 60%;
+    height: 10%;
+    margin: 3% 20% 0px;
+}
+
+.triperson #part2-1 #part2-2 {
+    width: 80%;
+    margin: 3% 10% 0%;
+}
+
+.triperson #part2-2 h2 {
+    font-weight: 700;
+    font-family: "Yu Mincho";
+    font-size: 180%;
+    text-align: right;
+}
+
+.triperson #part2-1 #part2-2 p {
+    color: white;
+    font-family: "Meiryo UI";
+    line-height: 1.7;
+}
+
+.triperson #part2-1 #part2-2 li {
+    color: white;
+    font-family: "Meiryo UI";
+    line-height: 1.5;
+}
+
+.triperson #part2-1 #part2-2 video {
+    width: 45%;
+    float: right;
+    margin: 0 0 70px;
+}
+
+.triperson #part2-1 #part2-2 #sec02 {
+    width: 50%;
+    float: left;
+}
+
+.triperson #part2-1 #part2-2 #sec02 #tripico {
+    margin: 5% 20% 5%;
+    width: 60%;
+    /*position:relative;
+    top:-200px;left: 600px;*/
+}
+
+.triperson #part2-1 #part2-2 #sec03 {
+    width: 100%;
+    clear: both;
+}
+
+
+/****************Start ANIOTA*******************/
+
+.aniota {
+    width: 100%;
+    margin: 0% 0% 0% 0%;
+    background-image: url(../images/05.jpg);
+    color: black;
+}
+
+.aniota #part3-1 {
+    width: 96%;
+    background-color: rgba(10, 100, 100, 0.3);
+    margin: 0% 2% 0% 2%;
+}
+
+.aniota #part3-1 h1 {
+    text-align: center;
+    margin: 5% 0% 5%;
+    color: orange;
+    font-size: 500%;
+    font-weight: 700;
+    font-family: "Yu Mincho";
+    text-shadow: -3px -3px 0 #f2f2f2, 3px -3px 0 #f2f2f2, 3px 3px 0 #f2f2f2, -3px 3px 0 #f2f2f2;
+}
+
+.aniota #part3-1 h3 {
+    text-align: center;
+    margin: 0% 0% 0%;
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.aniota #part3-1 #aniotaimg{
+    width: 100%;
+    margin: 3% 0 3%;
+}
+
+.aniota #part3-1 #aniotaimg01 {
+    width: 56%;
+    height: 10%;
+    margin: 0% 2% 0% 5%;
+}
+
+.aniota #part3-1 #aniotaimg02 {
+    width: 30%;
+    height: 10%;
+    margin: 0% 0% 0% 0%;
+}
+
+.aniota #part3-1 #part3-2 h2 {
+    font-weight: 700;
+    font-family: "Yu Mincho";
+    text-align: center;
+    font-size: 180%;
+}
+
+.aniota #part3-1 #part3-2 #aniotaico {
+    width: 20%;
+    float: left;
+    margin: 0% 0% 0% 10%;
+}
+
+.aniota #part3-1 #part3-2 #sec01 {
+    width: 50%;
+    float: right;
+    margin: 0% 8% 0% 0%;
+}
+
+.aniota #part3-1 #part3-2 p {
+    font-family: "Meiryo UI";
+    line-height: 1.7;
+    font-size: 110%;
+    color: black;
+}
+
+.aniota #part3-1 #part3-2 h3 {
+    width: 100%;
+    margin: 0% 0% 6%;
+    font-size: 150%;
+}
+
+
+.aniota #part3-1 #part3-2 li {
+    font-family: "Meiryo UI";
+    line-height: 1.5;
+    text-align: left;
+}
+
+.aniota #part3-1 #part3-2 video {
+    width: 35%;
+    float: right;
+    margin: 2% 10% 70px 0%;
+}
+
+.aniota #part3-1 #part3-2 #sec02 {
+    width: 40%;
+    float: left;
+    margin: 8% 0% 0 10%;
+}
+
+.aniota #part3-1 #part3-2 #sec03 {
+    width: 100%;
+    clear: both;
+}
+
+
+
+

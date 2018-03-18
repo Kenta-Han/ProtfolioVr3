@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>主成分分析</title>
+    <meta charset="utf-8">
+    <meta name="author" content="pixelhint.com">
+    <meta name="description" content="Magnetic is a stunning responsive HTML5/CSS3 photography/portfolio website  template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../PC-Seminar/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../PC-Seminar/css/main.css"> >
+    <link rel="stylesheet" type="text/css" href="../PC-Seminar/css/jquery.bxslider.css"> >
+    <script type="text/javascript" src="../PC-Seminar/js/jquery.js"></script>
+    <script type="text/javascript" src="../PC-Seminar/js/main.js"></script>
+    <script type="text/javascript" src="../PC-Seminar/js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.bxslider').bxSlider({
+                auto: true,
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../PC-Seminar/logo.png" title="Magnetic" alt="Magnetic" /></a>
+        </div>
+        <!-- end logo -->
+
+        <div id="menu_icon"></div>
+        <nav>
+            <ul>
+                <li><a href="../PC-Profile/profile.html">Profile</a></li>
+                <li><a href="../PC-Calligraphy/calligraphy.html">Calligraphy</a></li>
+                <li><a href="../PC-Illustration/illustration.html">Illustration</a></li>
+                <li><a href="../PC-App/app.html">AppDesign</a></li>
+                <li><a href="../PC-Maxim/maxim.html">Maxim</a></li>
+                <li><a href="../PC-Website/website.html">Website</a></li>
+                <li><a href="../PC-Seminar/seminar.html">Seminar</a></li>
+            </ul>
+            <select onChange="location.href=this.options[this.selectedIndex].value">
+                <option>下から選択してください。</option>
+                <option value="../PC-Seminar/01pca.html#1">主成分分析</option>
+                <option value="../PC-Seminar/02fa.html#2">因子分析</option>
+                <option value="../PC-Seminar/03mds.html#3">多次元尺度構成法</option>
+                <option value="../PC-Seminar/04su3rd.html#4">数量化理論Ⅲ類</option>
+                <option value="../PC-Seminar/05su4th.html#5">数量化理論Ⅳ類</option>
+                <option value="../PC-Seminar/06ku.html#6">クラスター分析</option>
+                <option value="../PC-Seminar/07jyu.html#7">重回帰分析</option>
+                <option value="../PC-Seminar/08roji.html#8">ロジスティック回帰分析</option>
+                <option value="../PC-Seminar/09han.html#9">判別分析</option>
+                <option value="../PC-Seminar/10sei.html#10">正準相関分析</option>
+            </select>
+        </nav>
+        <!-- end navigation menu -->
+    </header>
+    <!-- end header -->
+
+
+    <section class="main clearfix">
+
+        <main>
+            <ul class="bxslider">
+                <li>
+                    <img src="../Studyhp-Photo/01pca/pca01.jpg">
+                </li>
+                <li>
+                    <img src="../Studyhp-Photo/01pca/pca02.jpg">
+                </li>
+                <li>
+                    <img src="../Studyhp-Photo/01pca/pca03.jpg">
+                </li>
+                <li>
+                    <img src="../Studyhp-Photo/01pca/pca04.jpg">
+                </li>
+                <li>
+                    <img src="../Studyhp-Photo/01pca/pca05.jpg">
+                </li>
+                <li>
+                    <img src="../Studyhp-Photo/01pca/pca06.jpg">
+                </li>
+                <li>
+                    <img src="../Studyhp-Photo/01pca/pca07.jpg">
+                </li>
+                <li>
+                    <img src="../Studyhp-Photo/01pca/pca08.jpg">
+                </li>
+                <li>
+                    <img src="../Studyhp-Photo/01pca/pca09.jpg">
+                </li>
+            </ul>
+        </main>
+    </section>
+    <!-- end main -->
+
+</body>
+
+</html>

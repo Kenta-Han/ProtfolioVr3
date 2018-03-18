@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Design</title>
+    <!-- Load Roboto font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!-- Load css styles -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- javascript -->
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/jquery.cslider.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+
+<body>
+    <!-- Start バナー -->
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+                <a href="../index.html" class="brand">
+                    <img src="images/logo.png" width="120" height="40" alt="Logo" />
+                </a>
+
+                <!-- Main navigation -->
+                <div class="nav-collapse collapse pull-right">
+                    <ul class="nav" id="top-navigation">
+                        <li><a href="../PC-Profile/profile.html">Protfolio</a></li>
+                        <li><a href="../PC-Calligraphy/calligraphy.html">Calligraphy</a></li>
+                        <li><a href="../PC-Illustration/illustration.html">Illustration</a></li>
+                        <li><a href="../PC-Maxim/maxim.html">Maxim</a></li>
+                        <li><a href="../PC-Website/website.html">Website</a></li>
+                        <li class="active"><a href="../PC-App/app.html">AppDesign</a></li>
+                        <li><a href="../PC-Seminar/seminar.html">Seminar</a></li>
+                    </ul>
+                </div>
+                <!-- End main navigation -->
+            </div>
+        </div>
+    </div>
+    <!-- End　バナー -->
+
+    <!-- Start スライド -->
+    <div id="home">
+        <!-- Start cSlider -->
+        <div id="da-slider" class="da-slider">
+            <div class="triangle"></div>
+            <!-- mask elemet use for masking background image -->
+            <div class="mask"></div>
+            <!-- All slides centred in container element -->
+            <div class="container">
+                <!-- Start first slide -->
+                <div class="da-slide">
+                    <h2 class="fittext2">365日の思い出</h2>
+                    <h4>思い出を永遠に～</h4>
+                    <p></p>
+                    <a href="#part1-1" class="da-link button">Read more</a>
+                    <div class="da-img">
+                        <img src="365days/365days-01.JPG" alt="image01">
+                    </div>
+                </div>
+                <!-- End first slide -->
+
+                <!-- Start second slide -->
+                <div class="da-slide">
+                    <h2>Triperson</h2>
+                    <h4>旅をもっと楽しみになる</h4>
+                    <p></p>
+                    <a href="#part2-1" class="da-link button">Read more</a>
+                    <div class="da-img">
+                        <img src="Triperson/Triperson-01.JPG" alt="image02">
+                    </div>
+                </div>
+                <!-- End second slide -->
+
+                <!-- Start third slide -->
+                <div class="da-slide">
+                    <h2>ANIOTA</h2>
+                    <h4>片手でWorldを収めよう！！！</h4>
+                    <p></p>
+                    <a href="#part3-1" class="da-link button">Read more</a>
+                    <div class="da-img">
+                        <img src="ANIOTA/ANIOTA-01.JPG" alt="image03">
+                    </div>
+                </div>
+                <!-- End third slide -->
+
+                <!-- Start cSlide navigation arrows -->
+                <div class="da-arrows">
+                    <span class="da-arrows-prev"></span>
+                    <span class="da-arrows-next"></span>
+                </div>
+                <!-- End cSlide navigation arrows -->
+            </div>
+        </div>
+    </div>
+    <!-- End スライド -->
+
+    <!-- Start 365日の思い出 -->
+    <div class="app-days">
+        <div id="part1-1">
+            <br>
+            <h1>365日の思い出</h1>
+            <img src="365days/365days.png" id="daysimg01">
+
+            <div id="part1-2">
+                <section id="sec01">
+                    <h2>思い出を簡単に記録するアプリ</h2>
+                    <p>アプリを開き4種類の入力ボタンが大きく表示しています。ボタンが大きいためこの瞬間で発生する出来ことが素早く記録することができます。</p>
+                    <li>キーボート入力</li>
+                    <li>イラスト入力</li>
+                    <li>写真/ビデオで記録</li>
+                    <li>録音で記録</li>
+                    <br>
+                </section>
+                <img src="365days/365days-icon.png" id="daysico">
+                <br>
+                <section id="sec02">
+                    <p>4種類のメイン機能が揃っています。ユーザーがわざわざそれぞれの機能のアプリを開く必要がなく、簡単かつ快速に365日の思い出を形に残ることができます。
+                        <br> また、TwitterやFacebookなどのアプリと連動しみんなと共有することができます。
+                    </p>
+                </section>
+                <br>
+                <video src="365days/365days-video.mp4" controls loop></video>
+                <section id="sec03">
+                    <h3>動画のアプリ画面の紹介</h3>
+                    <ol>
+                        <li>スタート画面</li>
+                        <li>ホーム画面</li>
+                        <li>入力画面</li>
+                        <li>カレンダー画面</li>
+                        <li>本日のイベント画面</li>
+                        <li>設定画面</li>
+                        <li>配色変更1</li>
+                        <li>配色変更2</li>
+                    </ol>
+                    <p>スマトフォンアプリ「POP」を使って簡単にキャプチャ画像をリンクしし、「365日の思い出」の動作をイメージしている動画です。</p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- End　365日の思い出 -->
+
+    <!-- Start Triperson -->
+    <div class="triperson">
+        <div id="part2-1">
+            <br>
+            <h1>Triperson</h1>
+            <img src="Triperson/Triperson-09.jpeg" id="tripimg01">
+
+            <div id="part2-2">
+                <section id="sec01">
+                    <h2>安い値段で旅を最大限に楽しむ</h2>
+                    <p>Trip & Person 旅する人でTripersonで名前を付けました。
+                        <br>現在にいる駅から500円以内でたどり着く観光地,ショッピングセンターなど様々な遊び場を探そう。
+                        <br>ユーザーが投稿し、コメントや評価を付け情報の信頼度を高まることができます。
+                        <br>お互い情報の共有によって、きっと自分が楽しく過ごす場所を見つかることができます。</p>
+                </section>
+                <br>
+                <video src="Triperson/Triperson-video.mp4" controls loop></video>
+                <section id="sec02">
+                    <img src="Triperson/Triperson-icon.png" id="tripico">
+                    <br>
+                    <h3>動画のアプリ画面の紹介</h3>
+                    <ol>
+                        <li>スタート画面</li>
+                        <li>登録画面</li>
+                        <li>メイン画面(タイムライン)</li>
+                        <li>メニュー</li>
+                        <li>プロフィール(自分の投稿)</li>
+                    </ol>
+                    <p>スマトフォンアプリ「POP」を使って簡単にキャプチャ画像をリンクしし、「Triperson」の動作をイメージしている動画です。</p>
+                </section>
+                <section id="sec03"></section>
+            </div>
+        </div>
+    </div>
+    <!-- End　Triperson -->
+
+    <!-- Start ANIOTA -->
+    <div class="aniota">
+        <div id="part3-1">
+            <br>
+            <h1>ANIOTA</h1>
+            <h3>ANIME OTAKU</h3>
+            
+            <section id="aniotaimg">
+
+            <img src="ANIOTA/ANIOTA-13.JPG" id="aniotaimg01">
+            <img src="ANIOTA/ANIOTA-15.png" id="aniotaimg02">
+            </section>
+
+
+            <div id="part3-2">
+                <h2>片手でWorld(2次元)を収めよう！！！</h2>
+                
+                <img src="ANIOTA/ANIOTA-icon.png" id="aniotaico">
+                
+                <section id="sec01">
+                    <p>通学中でアニメを見るときはスマホが横向きのため、片手でコメントやコントロールすること難いです。 電車で多くの人が動画見るとき吊り手が掴まないため、ブレーキするとき危険です。<br>よって、今回は片手で吊り手を掴み、片手でコメント入力やコントロールしやすいような、アニメ見るアプリをデザインしました。今回のアプリデザインは右利きを想定して作っています。
+                    </p>
+                </section>
+                <br>
+                
+                <video src="ANIOTA/ANIOTA-video.mp4" controls loop></video>
+                <section id="sec02">
+                    <br>
+                    <h3>動画のアプリ画面の紹介</h3>
+                    <ol>
+                        <li>スタート画面</li>
+                        <li>ログイン画面</li>
+                        <li>メイン画面(おすすめ)</li>
+                        <li>メイン画面(チャンネル)</li>
+                        <li>チャット画面</li>
+                        <li>マイプロフィール</li>
+                        <li>動画＋概要+メニュー画面</li>
+                        <li>動画＋チャット入力画面<br>・・・右手を使ってチャットの入力を行います。キーボートはスマホ(iPhon6 Plus)掴んでいる時の親指の可動域を基準として作りました。</li>
+                        <li>動画＋コントロール画面<br>・・・再生,音量,フルー画面など動画を見る時使うコントロールが全部右手のみで操作することができます。また、画面をロックすることができる、よって間違って他の画面に移動する心配がありません。</li>
+                        <li>動画＋話数選択画面<br>・・・見たい話数を入力して見ることができます。</li>
+                    </ol>
+                </section>
+                <section id="sec03"></section>
+            </div>
+        </div>
+    </div>
+    <!-- End　Triperson -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ja">
+
+<head id="www-sitename-com" data-template-set="html5-reset">
+
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Illustration</title>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../PC-Illustration/css/illustration.css">
+    <link rel="stylesheet" href="../PC-Illustration/css/prettyPhoto.css">
+
+    <!-- javascript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="../PC-Illustration/js/jquery.backstretch.min.js"></script>
+    <script src="../PC-Illustration/js/jquery.slabtext.js"></script>
+    <script src="../PC-Illustration/js/jquery.masonry.js"></script>
+    <script src="../PC-Illustration/js/jquery.prettyPhoto.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.backstretch("../Background/Background07.jpg");
+        });
+
+        function slabTextHeadlines() {
+            $("h1").slabText({
+                // Don't slabtext the headers if the viewport is under 380px
+                "viewportBreakpoint": 380,
+            });
+        };
+
+        $(window).load(function () {
+            setTimeout(slabTextHeadlines, 0);
+        });
+
+        $(document).ready(function () {
+            var $container = $('#portfolio');
+            $container.imagesLoaded(function () {
+                $container.masonry({
+                    itemSelector: '.item',
+                    isFitWidth: true,
+                    isAnimated: true
+                });
+            });
+        });
+
+        $(document).ready(function () {
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!--The Headline Title -->
+        <header>
+            <h1>
+			<span class="slabtext">Welcome to my Illustration</span>
+		</h1>
+        </header>
+
+        <!-- Contact -->
+        <section id="social">
+            <ul id="social-icons">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../PC-Profile/profile.html">Profile</a></li>
+                <li><a href="../PC-Calligraphy/calligraphy.html">Calligraphy</a></li>
+                <li><a href="../PC-Illustration/illustration.html">Illustration</a></li>
+                <li><a href="../PC-App/app.html">AppDesign</a></li>
+                <li><a href="../PC-Maxim/maxim.html">Maxim</a></li>
+                <li><a href="../PC-Website/website.html">Website</a></li>
+                <li><a href="../PC-Seminar/seminar.html">Seminar</a></li>
+            </ul>
+        </section>
+
+        <!-- The Portfolio -->
+        <ul id="portfolio">
+            <li class="item">
+                <a href="../Illustration-Photo/item-001.png" rel="prettyPhoto"><img src="../Illustration-Photo/item-001.png" alt="Portfolio Image"></a>「書」
+                <br>秋の風景をイメージして描きました。背景遠いから見ると道になっています。真ん中は月で,渡り鳥となっています。「日」は秋を代表する紅葉とその色を使って太陽をイメージしています。</li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-002.png" rel="prettyPhoto"><img src="../Illustration-Photo/item-002.png" alt="Portfolio Image"></a>「戦」
+                <br>ニュースを見て。今！世界中のどこかで戦争が勃発し,人々が血を流し,争い続けますの思いを抱き描きました。</li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-003.png" rel="prettyPhoto"><img src="../Illustration-Photo/item-003.png" alt="Portfolio Image"></a>「輪」
+                <br>リオ五輪が閉幕し,人々が2020年の東京五輪を迎える気持ちで描きました。「車」を東京都の「東」に書き換え,都の木「イチョウ」の色を使いました。また,「侖」の下の部分は五輪を使って描きました。</li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-004.png" rel="prettyPhoto"><img src="../Illustration-Photo/item-004.png" alt="Portfolio Image"></a>「My logo」
+                <br>英文字の「P,H,A,N,G,O,K,E,T」に見えます。これらの英文字に組み合わせると今までの自分の名前になります。
+                <br>・　PAN HAO(中国語読み)
+                <br>・　HAN GO(日本語読み)
+                <br>・　HAN KENTA(通称)</li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-005.png" rel="prettyPhoto"><img src="../Illustration-Photo/item-005.png" alt="Portfolio Image"></a>「愛(Love)」
+                <br>人々,家族,恋人,友人,仕事。愛は一文字ですが,使う道によっていろいろな意味を持っています。しかし,どこにしても必ず心(ハード)を込めて愛しなければならない。
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-006.png" rel="prettyPhoto"><img src="../Illustration-Photo/item-006.png" alt="Portfolio Image"></a>「網」
+                <br>「網」の漢字を見て頭の中はまず「ネットワーク」という単語が出てきました。よって「網」になるように「ネットワーク」を組み合わせました。また、ネットワークは世界中を繋がているため、あかるいな色を使って描きました。
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-007.png" rel="prettyPhoto"><img src="../Illustration-Photo/item-007.png" alt="Portfolio Image"></a>「道」
+                <br>人々はそれぞれ自分の進む道(人生)がある。平坦な道、危険な道など。どんな道に進んでも自分を信じ一歩ずつ前に向いて歩けば、いずれTopに立つ日が来ます。
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-1.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-1.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-2.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-2.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-3.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-3.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-4.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-4.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-5.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-5.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-6.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-6.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-7.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-7.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-8.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-8.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-9.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-9.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-10.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-10.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-11.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-11.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-12.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-12.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-13.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-13.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-14.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-14.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-15.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-15.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-16.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-16.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-17.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-17.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-18.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-18.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-19.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-19.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-20.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-20.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-21.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-21.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-22.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-22.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-23.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-23.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-24.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-24.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-25.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-25.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-26.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-26.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-27.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-27.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-28.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-28.jpg" alt="Portfolio Image"></a>
+            </li>
+            <li class="item">
+                <a href="../Illustration-Photo/item-29.jpg" rel="prettyPhoto"><img src="../Illustration-Photo/item-29.jpg" alt="Portfolio Image"></a>
+            </li>
+        </ul>
+
+    </div>
+    <!--End container-->
+
+</body>
+
+</html>

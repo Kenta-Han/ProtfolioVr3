@@ -1,0 +1,191 @@
+/*
+
+    Template Author : pixelhint.com
+    Author Email    : contact@pixelhint.com
+    Template Name   : Magnetic
+    
+    
+    *****************************************
+    
+    
+    - Fonts
+    - General CSS
+    - Header
+    - Home/portfolio 
+    - Inner page 
+    - Map/Contact page  
+    - Tooltip 
+    - Responsive code
+  
+    
+*/
+
+
+/*  Fonts  */
+
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('../fonts/raleway-regular.eot');
+    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-regular.woff') format('woff'), url('../fonts/raleway-regular.ttf') format('truetype'), url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway-bold';
+    src: url('../fonts/raleway-bold.eot');
+    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-bold.woff') format('woff'), url('../fonts/raleway-bold.ttf') format('truetype'), url('../fonts/raleway-bold.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway-semibold';
+    src: url('../fonts/raleway-semibold.eot');
+    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-semibold.woff') format('woff'), url('../fonts/raleway-semibold.ttf') format('truetype'), url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*end font*/
+
+body {
+    background-image: url(../BackGround/Background05.jpg);
+}
+
+@media (min-width:1099px) {
+    /* start header*/
+    header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 270px;
+        min-height: 100%;
+        padding: 0 20px 0 0px;
+        background-color: black;
+        background-image: url(../Background/Background07.jpg);
+        float: left;
+        overflow: hidden;
+        z-index: 9999;
+        text-align: center;
+    }
+    header .logo {
+        margin-top: 50px;
+    }
+    header .logo img {
+        width: 90%;
+    }
+    header nav ul {
+        margin: 45px auto;
+        display: block;
+        overflow: hidden;
+        list-style: none;
+    }
+    header nav ul li {
+        display: block;
+        margin-bottom: 28px;
+    }
+    header nav ul li a {
+        color: antiquewhite;
+        text-shadow: 5px 5px 1px rgba(256, 256, 256, 0.3);
+        font-family: "raleway-regular", arial;
+        font-size: 28px;
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+    header nav ul li a:hover,
+    header nav ul li a.selected {
+        color: deepskyblue;
+    }
+    /*end header*/
+    /*start footer*/
+    footer {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        ;
+        width: 270px;
+        min-height: 100%;
+        padding: 0 0 0 0;
+        background-image: url(../Background/Background07.jpg);
+    }
+    footer nav ul {
+        margin-top: 30%;
+        display: block;
+        overflow: hidden;
+        list-style: none;
+    }
+    footer nav ul li {
+        display: block;
+        margin-bottom: 17%;
+        /*40px*/
+    }
+    footer nav ul li a {
+        color: dimgray;
+        color: antiquewhite;
+        text-shadow: 5px 5px 1px rgba(256, 256, 256, 0.3);
+        font-family: "raleway-regular", arial;
+        font-size: 25px;
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+    footer nav ul li a:hover,
+    footer nav ul li a.selected {
+        color: red;
+    }
+    /*end footer*/
+}
+
+
+/* start main*/
+
+main {
+    width: 70%;
+    min-height: 100%;
+    padding: 0;
+    background-color: white;
+    background-image: url(../BackGround/Background05.jpg);
+    margin: 0% auto;
+}
+
+main h2 {
+    color: darkorchid;
+    text-align: center;
+    font-size: 200%;
+}
+
+main ul {
+    width: 95%;
+    text-align: center;
+    list-style-type: none;
+}
+
+main h3 {
+    font-size: 150%;
+}
+
+main li {
+    margin: 20px 102px 20px 102px;
+    font-size: 105%;
+}
+
+main span {
+    font-family: cursive;
+    font-size: 95%;
+}
+
+main span #red {
+    color: red;
+    font-size: 110%;
+}
+
+main span #name {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+
+/*end main */

@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
+@media screen and (max-width:480px) {
+    body {
+        background-image: url("../index-Photo/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-image: url("../index-Photo/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-image: url("../index-Photo/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-image: url("../index-Photo/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-position: top left, bottom left, auto;
+        background-size: auto, 100% 100%, cover;
+        background-repeat: repeat, no-repeat, auto;
+        padding: 0;
+        font-size: 12pt;
+        line-height: 1.75em;
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+    }
+    body {
+        position: relative;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: 'Source Sans Pro';
+    }
+    a {
+        color: #fff;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        -moz-transition: color 0.25s ease-in-out;
+        -webkit-transition: color 0.25s ease-in-out;
+        -ms-transition: color 0.25s ease-in-out;
+        transition: color 0.25s ease-in-out;
+    }
+    #topimg {
+        width: 100%;
+        margin: 0% 0% 0% 0%;
+    }
+    /* Wrapper */
+    #wrapper {
+        position: relative;
+        z-index: 1;
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+    }
+    section img {
+        width: 80%;
+        margin: 1% 10% 1% 10%;
+    }
+    /* Footer */
+    #footer {
+        position: fixed;
+        margin: 1% 0% 0% 0%;
+        width: 90%;
+    }
+    #footer .left {
+        margin: 1% 0% 0% 0%;
+        text-align: center;
+        float: left;
+        width: 40%;
+    }
+    #footer .center {
+        margin: 0% 5% 0% 0%;
+        text-align: center;
+        float: right;
+        width: 10%;
+    }
+    #mine {
+        width: 200%;
+    }
+    #footer .right {
+        margin: 5% 2% 0% 0%;
+        text-align: center;
+        float: right;
+        width: 35%;
+    }
+    #footer .copyright li {
+        display: inline-block;
+        margin-left: 1em;
+        padding-left: 1em;
+        border-left: solid 1px #333;
+        border-left-color: rgba(255, 255, 255, 0.25);
+        line-height: 1em;
+    }
+    #footer .copyright li:first-child {
+        border-left: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 481px)and (max-width:768px) {
+    body {
+        background-image: url("../index-Photo/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-image: url("../index-Photo/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-image: url("../index-Photo/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-image: url("../index-Photo/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-position: top left, bottom left, auto;
+        background-size: auto, 100% 100%, cover;
+        background-repeat: repeat, no-repeat, auto;
+        padding: 0;
+        font-size: 12pt;
+        line-height: 1.75em;
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+    }
+    body {
+        position: relative;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: 'Source Sans Pro';
+    }
+    a {
+        color: #fff;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        -moz-transition: color 0.25s ease-in-out;
+        -webkit-transition: color 0.25s ease-in-out;
+        -ms-transition: color 0.25s ease-in-out;
+        transition: color 0.25s ease-in-out;
+    }
+    #topimg {
+        width: 100%;
+        margin: 0% 0% 0% 0%;
+    }
+    /* Wrapper */
+    #wrapper {
+        position: relative;
+        z-index: 1;
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+    }
+    section img {
+        width: 45%;
+        margin: 1% 2% 0% 2%;
+    }
+    /* Footer */
+    #footer {
+        position: fixed;
+        margin: 1% 0% 0% 0%;
+        width: 90%;
+    }
+    #footer .left {
+        margin: 1% 0% 0% 0%;
+        text-align: center;
+        float: left;
+        width: 40%;
+    }
+    #footer .center {
+        margin: 0% 5% 0% 0%;
+        text-align: center;
+        float: right;
+        width: 10%;
+    }
+    #mine {
+        width: 150%;
+        margin: 20% 0% 0% 0%;
+    }
+    #footer .appdesign{
+        margin: 5% 0% 0% 0%;
+        float: left;
+        width: 40%;
+        text-align: center;
+    }
+    #footer .appdesign img{
+        margin: 0% 0% 0% 0%;
+        width: 100%;
+        text-align: center;
+    }
+    #footer .right {
+        margin: 0% 0% 0% 0%;
+        text-align: center;
+        float: right;
+        width: 30%;
+    }
+    #footer .copyright li {
+        display: inline-block;
+        margin-left: 1em;
+        padding-left: 1em;
+        border-left: solid 1px #333;
+        border-left-color: rgba(255, 255, 255, 0.25);
+        line-height: 1em;
+    }
+    #footer .copyright li:first-child {
+        border-left: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+
+@media screen and (min-width:769px) {
+    body {
+        background-image: url("../index-Photo/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-image: url("../index-Photo/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-image: url("../index-Photo/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-image: url("../index-Photo/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../index-Photo/bg.jpg");
+        background-position: top left, bottom left, auto;
+        background-size: auto, 100% 100%, cover;
+        background-repeat: repeat, no-repeat, auto;
+        padding: 0;
+        font-size: 12pt;
+        line-height: 1.75em;
+        height: 100%;
+        min-height: 450px;
+        min-width: 1000px;
+        width: 100%;
+        margin: 0%;
+    }
+    body {
+        position: relative;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: 'Source Sans Pro';
+    }
+    a {
+        color: #fff;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        -moz-transition: color 0.25s ease-in-out;
+        -webkit-transition: color 0.25s ease-in-out;
+        -ms-transition: color 0.25s ease-in-out;
+        transition: color 0.25s ease-in-out;
+    }
+    #topimg {
+        width: 100%;
+        margin: 0% 0% 0% 0%;
+    }
+    /* Wrapper */
+    #wrapper {
+        position: relative;
+        z-index: 1;
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+    }
+    section img {
+        width: 30%;
+        margin: 1% 1% 1% 1%;
+    }
+    /* Footer */
+    #footer {
+        position: fixed;
+        margin: 1% 0% 0% 0%;
+        width: 90%;
+    }
+    #footer .left {
+        margin: 1% 0% 0% 0%;
+        text-align: center;
+        float: left;
+        width: 30%;
+    }
+    #footer .appdesign{
+        margin: 0% 0% 0% 0%;
+        float: left;
+        width: 30%;
+        text-align: center;
+    }
+    #footer .appdesign img{
+        margin: 1% 0% 0% 10%;
+        width: 100%;
+        text-align: center;
+    }
+    #footer .center {
+        margin: 0% 5% 0% 0%;
+        text-align: center;
+        float: right;
+        width: 10%;
+    }
+    #mine {
+        width: 100%;
+    }
+    #footer .right {
+        margin: 4% 0% 0% 0%;
+        text-align: center;
+        float: right;
+        width: 15%;
+    }
+    #footer .copyright li {
+        display: inline-block;
+        margin-left: 1em;
+        padding-left: 1em;
+        /*border-left: solid 1px #333;
+        border-left-color: rgba(255, 255, 255, 0.25);*/
+        line-height: 1em;
+    }
+    #footer .copyright li:first-child {
+        border-left: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,96 @@
+//名言集(maxim.css)の別のデザイン
+
+* {
+    padding: 0;
+    list-style: none;
+    /*list number-No*/
+    text-decoration: none;
+    /*underline-No*/
+}
+
+body {
+    color: aliceblue;
+    background-image: url(../BackGround/Background17.jpg);
+    background-color: aliceblue;
+}
+
+#page {
+    width: 90%;
+    margin: 1% 5% 1% 5%;
+text-align: center;
+}
+
+header img {
+    text-align: center;
+    width: 35%;
+    transform: rotateZ(25deg);
+}
+
+#page #maximtop {
+    width: 55%;
+    margin-top: 2%;
+}
+section{
+    text-align: center;
+}
+
+#top {
+    width: 11%;
+    padding: 1%;
+    margin: 3% 0% 5% 0%;
+}
+
+#calligraphy {
+    width: 11%;
+    padding: 1%;
+    margin: 0% 0% 0% 0%;
+}
+
+#illustration {
+    width: 11%;
+    padding: 1%;
+    margin: 3% 0% 5% 0%;
+}
+
+#website {
+    width: 11%;
+    padding: 1%;
+    margin: 0% 0% 0% 0%;
+}
+
+#maxim {
+    width: 11%;
+    padding: 1%;
+   margin: 3% 0% 5% 0%;
+}
+
+#seminar {
+    width: 11%;
+    padding: 1%;
+    margin: 0% 0% 0% 0%;
+}
+
+
+/*名言*/
+
+#maximue {
+    width: 55%;
+    margin: 3% 0% 0% 0%;
+}
+
+#maximsita {
+    width: 55%;
+    margin: 3% 0% 0% 0%;
+}
+
+/*maxim01~06*/
+
+#maxim01,
+#maxim02,
+#maxim03,
+#maxim04,
+#maxim05,
+#maxim06 {
+    width: 25%;
+    margin: 1% 1% 1% 2%;
+}
